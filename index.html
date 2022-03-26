@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyTrampo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div class="navContainer">
+            <img id="logo" src="imagens/logo.png" alt="logo jobs" />
+            <ul>
+              <li><a href="#">Encontrar Vaga</a></li>
+              <li><a href="#">Enviar Vaga</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div id="mainBanner">
+          <div id="searchForm">
+            <h1>A maneira mais facil de encontrar seu emprego.</h1>
+            <p>
+              Conecte-se de forma gratuita as melhores empresas e consiga o
+              emprego dos seus sonhos!
+            </p>
+            <form action="">
+              <input
+                type="text"
+                name="job"
+                placeholder="Digite o cargo desejado"
+              />
+              <select name="region">
+                <option value="">Todos os estados</option>
+              </select>
+              <select name="category">
+                <option value="">Categoria</option>
+              </select>
+              <input type="submit" value="Pesquisar" />
+            </form>
+          </div>
+        </div>
+      </header>
+      <main id="lastJobsContainer" class="wrapper">
+        <h1>Ultimas Vagas Enviadas</h1>
+        <ul>
+          <li>
+            <a href="#" class="clickArea">
+              <div class="companyBox">
+                <img src="imagens/googlelogo.png" alt="logo google" />
+                <div class="companyInfo">
+                  <h3>Desenvolvedor</h3>
+                  <p>Google</p>
+                </div>
+              </div>
+              <div class="locality">
+                <i class="fas fa-map-maker-alt"></i>
+                <p>Montain View, California</p>
+              </div>
+              <div class="jobType">
+                <span class="pj">PJ</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="clickArea">
+              <div class="companyBox">
+                <img src="imagens/ibmlogo.png" alt="IBM logo" />
+                <div class="companyInfo">
+                  <h3>DBA</h3>
+                  <p>IBM</p>
+                </div>
+              </div>
+              <div class="locality">
+                <i class="fas fa-map-maker-alt"></i>
+                <p>Armonk, New York</p>
+              </div>
+              <div class="jobType">
+                <span class="pj">PJ</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="clickArea">
+              <div class="companyBox">
+                <img src="imagens/linkedinlogo.png" alt="logo Linkedin" />
+                <div class="companyInfo">
+                  <h3>Desenvolvedor Front-end</h3>
+                  <p>Linkedin</p>
+                </div>
+              </div>
+              <div class="locality">
+                <i class="fas fa-map-maker-alt"></i>
+                <p>Sunnyvale, California</p>
+              </div>
+              <div class="jobType">
+                <span class="homeOffice">Home Office</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="clickArea">
+              <div class="companyBox">
+                <img src="imagens/facebooklogo.png" alt="logo Facebook" />
+                <div class="companyInfo">
+                  <h3>Desenvolvedor Full Stack</h3>
+                  <p>FaceBook</p>
+                </div>
+              </div>
+              <div class="locality">
+                <i class="fas fa-map-maker-alt"></i>
+                <p>Menlo Park, California</p>
+              </div>
+              <div class="jobType">
+                <span class="clt">CLT</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="btnJobsContainer">
+          <a href="#" class="btnJobs">Ver Mais Vagas.</a>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
